@@ -1,0 +1,54 @@
+/*GENERAL*/
+/*GENERAL*/
+/*GENERAL*/
+
+p {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: sans-serif;
+}
+/*SPECIFIC*/
+/*SPECIFIC*/
+/*SPECIFIC*/
+
+div.outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+div#splash {
+    color: white;
+    text-align: center;
+}
+
+div#splash.middle {
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/*DEBUG*/
+/*DEBUG*/
+/*DEBUG*/
+
+div {
+    border: 1px solid magenta;
+}
+
+body {
+    background-color: white;
+}
